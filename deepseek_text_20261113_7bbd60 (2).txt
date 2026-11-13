@@ -1,0 +1,16 @@
+MsChest/
+├── pom.xml
+└── src/main/
+    ├── java/ru/rtp674637/mschest/
+    │   ├── MsChest.java
+    │   ├── ChestManager.java
+    │   ├── LootManager.java
+    │   ├── AnimationManager.java
+    │   ├── MsChestCommand.java
+    │   ├── ChestListener.java
+    │   ├── LootChest.java
+    │   └── Rarity.java
+    └── resources/
+        ├── plugin.yml
+        ├── config.yml
+        └── animations.yml

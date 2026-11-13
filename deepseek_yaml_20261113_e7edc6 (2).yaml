@@ -1,0 +1,14 @@
+name: MsChest
+version: 1.0.0
+main: ru.rtp674637.mschest.MsChest
+api-version: '1.21'
+author: Rtp674637
+description: Chests with loot, rarity and refresh timer.
+commands:
+  mschest:
+    description: Main command for MsChest
+    usage: /mschest <want|edit|restart|reloadloot>
+    aliases: [mc]
+permissions:
+  mschest.admin:
+    default: op

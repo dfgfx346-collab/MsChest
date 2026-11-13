@@ -1,0 +1,24 @@
+default:
+  duration: 4
+  red-pane: "RED_STAINED_GLASS_PANE"
+  green-pane: "LIME_STAINED_GLASS_PANE"
+  red-name: "&cНет лута"
+  green-name: "&aЕсть лут"
+  red-sound: "BLOCK_NOTE_BLOCK_HAT"
+  green-sound: "BLOCK_NOTE_BLOCK_PLING"
+  final-sound: "ENTITY_PLAYER_LEVELUP"
+
+snake:
+  duration: 4
+  red-pane: "RED_STAINED_GLASS_PANE"
+  green-pane: "LIME_STAINED_GLASS_PANE"
+  red-name: "&cПусто"
+  green-name: "&aЛут"
+  red-sound: "BLOCK_NOTE_BLOCK_BASS"
+  green-sound: "BLOCK_NOTE_BLOCK_CHIME"
+  final-sound: "ENTITY_PLAYER_LEVELUP"
+
+ordered:
+  duration: 4
+  sound: "ENTITY_ITEM_PICKUP"
+  final-sound: "ENTITY_PLAYER_LEVELUP"

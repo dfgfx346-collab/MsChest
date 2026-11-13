@@ -1,0 +1,55 @@
+messages:
+  prefix: "&#C822FF[Cундук] &r"
+  chest-placed: "&#AF7DFBСундук с лутом создан! Редкость: %rarity%"
+  chest-removed: "&#AF7DFBСундук удалён."
+  chest-opened: "&#AF7DFBВы открыли сундук. Эффект свечения на 7 секунд."
+  chest-empty: "&cЛут в этом сундуке уже забрали! Обновление через: &e%time%"
+  no-permission: "&cУ вас нет прав."
+  wand-given: "&#AF7DFBПалка для создания сундуков выдана."
+  edit-rarity-set: "&#AF7DFBРедкость сундука изменена на %rarity%"
+  restart-done: "&#AF7DFBЛут обновлён! Анимация появится при следующем открытии."
+  loot-added: "&#AF7DFBПредмет %item% добавлен в редкость %rarity%."
+  loot-removed: "&#AF7DFBПредмет %item% удалён из редкости %rarity%."
+  loot-list-header: "&#AF7DFBЛут редкости %rarity%:"
+  loot-list-entry: "&7 - &f%item%"
+  loot-list-empty: "&#AF7DFBСписок пуст."
+  loot-file-reloaded: "&aФайл loot.yml перезагружен."
+
+chest:
+  refresh-seconds: 60
+  glow-seconds: 7
+  block-type: "CHEST"
+  animation-type: "default"
+  rarity-chances:
+    common: 50.0
+    rare: 35.0
+    epic: 20.0
+    mythic: 15.0
+  rarity-names:
+    common: "&fОбычный"
+    rare: "&bРедкий"
+    epic: "&5Эпический"
+    mythic: "&cМифический"
+  item-count:
+    common:
+      min: 4
+      max: 8
+    rare:
+      min: 5
+      max: 8
+    epic:
+      min: 5
+      max: 10
+    mythic:
+      min: 9
+      max: 14
+
+hologram:
+  title: "&#9754FFХранилище с лутом"
+  lines:
+    - "&#A164FFОбновление: &f%time%"
+    - "&#B68AFBРед: %rarity%"
+  offset-y: 1.2
+  scale: 1.0
+  background: true
+  shadow: false
